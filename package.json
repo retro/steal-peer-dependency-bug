@@ -1,0 +1,26 @@
+{
+  "name": "steal-peer-dependency-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "steal": "^0.15.3",
+    "steal-tools": "^0.15.5",
+    "zone.js": "^0.6.8",
+    "angular2" : "2.0.0-beta.12"
+  },
+  "system" : {
+    "paths" : {
+      "angular2/*" : "node_modules/angular2/es6/prod/*.js"
+    },
+    "npmAlgorithm": "flat"
+  }
+}
